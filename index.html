@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Exhibition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    /* Reset and global styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Zen Loop", cursive;
+    }
+
+    /* General container for layout */
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+        background-color: #b0c8a5;
+        color: white;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    /* Artist Statement */
+    #statement {
+        padding: 40px;
+        background-color: white;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    /* Gallery */
+    #gallery {
+        padding: 50px 0;
+        background-color: #e9f1e5;
+        margin-top: 40px;
+    }
+
+    #gallery h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .carousel-item img {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .carousel-item img:hover {
+        transform: scale(1.05);
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #b0c8a5;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>My First Exhibition</h1>
+            <p>A digital art collection to celebrate the beauty of nature and simplicity.</p>
+        </header>
+
+        <!-- Artist Statement Section -->
+        <section id="statement">
+            <h2>Artist Statement</h2>
+            <p>Welcome to Wings of Serenity: A Celebration of Avian Artistry, a unique tribute to the timeless beauty of birds channeled through the dreamlike quality of watercolors. Ten skillful pieces are brought together to offer an expressive balance of artistic delicacy and feeling in evoking the grace, vigor, and symbolisms that make birds dear friends to all people. Each of these paintings has a common theme: birds in their natural habitats, expressed with vibrant washes of color and fluidity that only watercolors can capture.
+
+The centerpiece of this exhibition is the detailed interplay between birds and their environments. From the striking colors of autumn foliage to the delicate greens of springtime branches, each painting is a study in the balance between foreground and background, subject and setting. It shows artists capturing not only the essence in an anatomical sense but emotionally linked to the idea of the bird-often freedom, resilience, a quiet sense of wonder. With every soft brush stroke, they reveal the precious fleeting nature of life, that quick captured seconds around nature when birds perch or soar or sing.
+
+This series features the use of watercolor in capturing not only the minute details but also the general ambiance of every scene. Watercolor is a medium uniquely suited to this theme. Fluidity and translucency let the artists use layers, with which they convincingly display feather delicacy, glisten through the leaves in dappled light, and then blurry as in flight when a bird whisks away. All these unexpected turns of events this medium takes, where color may blend and show texture within each composition, remind us of the chaos but at the same time order inside of Nature: so appropriate for scenes concerning avian in their settings.
+
+Beyond their aesthetic appeal, these works speak to the symbolic and ecological significance of birds. Birds have been powerful symbols of freedom, migration, and interconnectedness for centuries. Many cultures regard them as messengers, connecting the heavens and the earth. This exhibition will remind viewers of these rich cultural associations while calling attention to the ecological importance of avian species. Birds are the indicators of environmental health, their presence or absence giving a signal on the vitality of our ecosystems.
+
+It is a portfolio celebrating diversity, not only in the species but also in the artistic approaches utilized-from the robin in its ardent plumage across an autumn backdrop of oak leaves to the subdued grace of the sparrow nestled among muted greens, each piece provides a different perspective. Combined, they create a symphony of color and form that invites one to stop and connect with the natural world.
+
+As the curator, my goal is to create a space where art and nature converge to inspire reflection and appreciation. In a world often dominated by haste and distraction, these works remind us to slow down, to observe, and to cherish the beauty that surrounds us. May Wings of Serenity awaken your sense of wonder and deepen your connection to the vibrant life that exists beyond our windows.
+
+Thank you for accompanying us on this journey.</p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=33&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image1.jpeg" alt="Art 1">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=32&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image2.jpeg" alt="Art 2">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=37&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image3.jpeg" alt="Art 3">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=37&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image4.jpeg" alt="Art 4">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=40&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image5.jpeg" alt="Art 5">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=44&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image6.jpeg" alt="Art 6">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=47&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image7.jpeg" alt="Art 7">
+                        </a>
+                </div>
+                <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=54&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image8.jpeg" alt="Art 8">
+                        </a>
+            </div>
+            <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=55&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image9.jpeg" alt="Art 9">
+                        </a>
+                        <div class="carousel-item">
+                        <a href="https://www.massaudubon.org/about/museum-of-american-bird-art/art-collection?page=carousel&slide=56&folderID=9a666d80-8001-11ed-b3a1-db7438d13a63" target="_blank">
+                            <img src="image10.jpeg" alt="Art 10">
+                        </a>
+        </section>
+
+<!-- Floorplan Section -->
+        <section id="floorplan">
+            <h2>Exhibition Layout</h2>
+            <img src="layout.jpeg" alt="Exhibition Floorplan">
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>My First Exhibition © 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>
